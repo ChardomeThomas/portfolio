@@ -12,13 +12,12 @@ export default function accueil() {
     return (
         <div class="container">
             <div class="line-container">
-                <div class="line"></div>
-                <div class="line"></div>
+                <div class="line small"></div>
+                <div class="line "></div>
                 <div class="line texte"><Link to="/monCv">A PROPOS</Link></div>
                 <div class="line texte"><Link to="/">PROJETS</Link></div>
                 <div class="line texte"><Link to="/Contact">CONTACT</Link></div>
-                <div class="line"></div>
-                <div class="line"></div>
+                <div class="line small"></div>
             </div>
 
             <img class="first" src={first} alt="premier plan" />
