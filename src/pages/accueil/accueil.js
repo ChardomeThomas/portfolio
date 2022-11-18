@@ -14,7 +14,7 @@ export default function accueil() {
             <div class="line-container">
                 <div class="line small"></div>
                 <div class="line texte"><Link to="/aPropos">A PROPOS</Link></div>
-                <div class="line texte"><Link to="/monCv">mon CV</Link></div>
+                <div class="line texte"><Link to="/monCv">MON CV</Link></div>
                 <div class="line texte"><Link to="/">PROJETS</Link></div>
                 <div class="line texte"><Link classname="test" to="/Contact">CONTACT</Link></div>
                 <div class="line small"></div>
