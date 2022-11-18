@@ -46,7 +46,16 @@
     z-index:1;
   }
   .thom{
-    max-width:55%;
+    height: 335px;
+    left: 0;
+    margin-left: 23%;
+    margin-top: 19%;
+    max-width: 55%;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 4;
+    /* max-width:55%;
     height:250px;
     position:absolute;
     z-index:4;
@@ -54,7 +63,7 @@
     top:0;
     left:0;
     margin-top: 21%;
-    margin-left: 24%;
+    margin-left: 24%; */
   }
   .line-container{
     position:absolute;
