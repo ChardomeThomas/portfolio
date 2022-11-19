@@ -19,7 +19,6 @@ export default function accueil() {
                 <div class="line texte"><Link classname="test" to="/Contact">CONTACT</Link></div>
                 <div class="line small"></div>
             </div>
-
             <img class="first" src={first} alt="premier plan" />
             <img class="second" src={second} alt="premier plan" />
             <img class="third" src={third} alt="premier plan" />
