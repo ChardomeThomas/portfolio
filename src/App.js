@@ -5,10 +5,9 @@ import Contact from './pages/contact/contact';
 import Erreur from './pages/404/erreur';
 import Apropos from './pages/aPropos/aPropos';
 import { Routes, Route} from "react-router-dom";
-
 function App() {
   return (
-
+    
     <Routes>
       <Route path="/" element={<Accueil />} />
       <Route path="/aPropos" element={<Apropos />} />

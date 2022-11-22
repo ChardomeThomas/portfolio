@@ -5,12 +5,15 @@ import second from "../../images/second.png";
 import third from "../../images/third.png";
 import fourth from "../../images/fourth.png";
 import thom from "../../images/THOM.png";
+import Header from "../header/header"
 
 import { Link } from 'react-router-dom';
 
 export default function accueil() {
     return (
+        
         <div class="container">
+            <Header />
             <div class="line-container">
                 <div class="line small"></div>
                 <div class="line texte"><Link to="/aPropos">A PROPOS</Link></div>

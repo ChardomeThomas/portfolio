@@ -110,3 +110,22 @@ a:visited {
 .small {
   width: 15%;
 }
+
+@media (max-width:900px){
+  body{
+    background-color: black;
+  }
+  .line-container{
+    position: relative;
+    display:block;
+  }
+  .line{
+   border:none; 
+  }
+  .line:hover{
+    background-color: black;
+  }
+  img{
+    display:none;
+  }
+}
